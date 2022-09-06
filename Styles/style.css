@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Work Sans', sans-serif;
+}
+
+#site {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#card {
+	background: white;
+	width: 88%;
+	border-radius: 10px;
+}
+
+@media (min-width: 765px) {
+	#card {
+		max-width: 390px;;
+	}
+}
+
+.image-container {
+	height: 180px;
+	width: 100%;
+	background-color: #0F52BA;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+}
+
+h2 {
+	width: 260px;
+}
+
+.content-container {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	text-align: center;
+	gap: 20px;
+}
+
+p {
+	color: gray;
+	font-size: 14px;
+}
+
+form {
+	text-align: start;
+}
+
+form > div {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	margin-bottom: 6px;
+}
+
+form > div > input {
+	width: 100%;
+	border: 1px solid gray;
+	border-radius: 4px;
+	padding: 12px;
+	background-color: rgb(226, 226, 226);
+	outline: none;
+}
+
+form > div > button {
+	background-color: #0F52BA;
+	color: white;
+	border: none;
+	padding: 12px;
+	border-radius: 4px;
+}
+
+#avatar-container {
+	display: flex;
+	align-items: center;
+	text-align: start;
+	gap: 10px;
+	margin: 0 auto;
+}
+
+#avatar-container > div > p:nth-child(1) {
+	font-weight: 700;
+	color: black;
+}
